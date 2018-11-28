@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>layout</title>
+  </head>
+    <body>
+      <div class="nav">
+          <ul>
+              <li><a class ="active" href="Index.html"> Home </a></li>
+              <li><a href="Sunday.html">Sunday</a></li>
+              <li><a href="Monday.html">Monday</a></li>
+              <li><a href="Tuesday.html">Tuesday</a></li>
+              <li><a href="Wednesday.html">Wednesday</a></li>
+              <li><a href="Thursday.html">Thursday</a></li>
+              <li><a href="Friday.html">Friday</a></li>
+              <li><a href="Shabbat.html">Shabbat</a></li>
+        </ul>
+      </div>
+      <h1>
+        Hewitt Kosher
+      </h1>
+
+<div class="mySlides fade">
+  <img src="images/BBQDay.jpg" style="width:100%;">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/breakfastday.jpg" style="width:100%;">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/Salmonday.jpg" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+    <article>
+    </article>
+    <p1>
+      Welcome to the Hewitt Kosher Menu site.
+      Click around to discover the menu on each day.
+      We hope this helps you decide to come to Hewitt today!
+    </p1>
+
+    <p2>
+      Don't forget to thank your servers!
+    </p2>
+
+
+    </body>
+    </html>
