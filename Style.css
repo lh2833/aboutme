@@ -149,6 +149,7 @@ img {
     font-size: 11px
   }
 }
+
 .maintext {
   background-color: grey;
   width: 1200px;
@@ -251,7 +252,6 @@ h2 {
   margin-bottom: 60px;
 }
 
-
 .menuitem li {
   font-weight: normal;
   text-decoration: none;
@@ -267,7 +267,6 @@ h2 {
   font-weight: bold;
   text-decoration: underline;
 }
-
 
 .monday ul {
   list-style-type: none;
