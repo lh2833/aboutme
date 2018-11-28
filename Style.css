@@ -2,7 +2,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-ul {
+.nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -10,22 +10,22 @@ ul {
   background-color: #B9D9EB;
 }
 
-li {
+.nav li {
   float: left;
 }
 
-li a {
+.nav li a {
   display: block;
   padding: 20px;
   background-color: #B9D9EB;
   color: black;
 }
 
-li a:hover {
+.nav li a:hover {
   background-color: white;
 }
 
-li a.active {
+.nav li a.active {
   background-color: white;
 }
 
@@ -149,6 +149,17 @@ img {
     font-size: 11px
   }
 }
+.maintext {
+  background-color: grey;
+  width: 1200px;
+  margin: 50px;
+}
+
+.thanks {
+  background-color: pink;
+  width: 1200px;
+  margin: 50px;
+}
 
 p1 {
   margin: 20px;
@@ -169,11 +180,11 @@ p2 {
 .sunday {
   border: 3px solid #73AD21;
   background-color: grey;
-  height: 500px;
-  width: 250px;
+  width: 450px;
   float: left;
-  padding: 20px;
-  margin-right: 20px;
+  padding: 5px;
+  margin-right: 60px;
+  margin-bottom: 60px;
 }
 
 h2 {
@@ -181,11 +192,89 @@ h2 {
 }
 
 .monday {
-  border: 3px solid blue;
-  background-color: pink;
-  height: 500px;
-  width: 250px;
+  border: 3px solid #73AD21;
+  background-color: grey;
+  width: 450px;
   float: left;
-  padding: 20px;
-  margin-right: 20px;
+  padding: 5px;
+  margin-right: 60px;
+  margin-bottom: 60px;
+}
+
+.tuesday {
+  border: 3px solid #73AD21;
+  background-color: grey;
+  width: 450px;
+  float: left;
+  padding: 5px;
+  margin-right: 60px;
+  margin-bottom: 60px;
+}
+
+.wednesday {
+  border: 3px solid #73AD21;
+  background-color: grey;
+  width: 450px;
+  float: left;
+  padding: 5px;
+  margin-right: 60px;
+  margin-bottom: 60px;
+}
+
+.thursday {
+  border: 3px solid #73AD21;
+  background-color: grey;
+  width: 450px;
+  float: left;
+  padding: 5px;
+  margin-right: 60px;
+  margin-bottom: 60px;
+}
+
+.friday {
+  border: 3px solid #73AD21;
+  background-color: grey;
+  width: 450px;
+  float: left;
+  padding: 5px;
+  margin-right: 60px;
+  margin-bottom: 60px;
+}
+
+.shabbat {
+  border: 3px solid #73AD21;
+  background-color: grey;
+  width: 450px;
+  float: left;
+  padding: 5px;
+  margin-right: 60px;
+  margin-bottom: 60px;
+}
+
+
+.menuitem li {
+  font-weight: normal;
+  text-decoration: none;
+  list-style-type: circle;
+}
+
+.sunday ul {
+  list-style-type: none;
+  margin-right: 5px;
+}
+
+.sunday li {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+.monday ul {
+  list-style-type: none;
+  margin-right: 5px;
+}
+
+.monday li {
+  font-weight: bold;
+  text-decoration: underline;
 }
